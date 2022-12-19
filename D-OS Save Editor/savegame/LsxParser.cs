@@ -212,7 +212,7 @@ namespace D_OS_Save_Editor
                             item.ItemSort = ItemSortType.Scroll;
                             break;
                         case "grn":
-                            item.ItemSort = ItemSortType.Granade;
+                            item.ItemSort = ItemSortType.Grenade;
                             break;
                         case "food":
                             item.ItemSort = ItemSortType.Food;

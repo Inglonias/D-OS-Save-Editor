@@ -12,7 +12,7 @@ namespace D_OS_Save_Editor
     /// <summary>
     /// Item category or type
     /// </summary>
-    public enum ItemSortType { Item = 0, Potion, Armor, Weapon, Gold, Skillbook, Scroll, Granade, Food, Furniture, Loot, Quest, Tool, Unique, Book, Other, Key, Arrow }
+    public enum ItemSortType { Item = 0, Potion, Armor, Weapon, Gold, Skillbook, Scroll, Grenade, Food, Furniture, Loot, Quest, Tool, Unique, Book, Other, Key, Arrow }
     public class Item
     {
         #region properties
@@ -268,9 +268,10 @@ namespace D_OS_Save_Editor
 
             if (ItemSort == ItemSortType.Potion ||
                 ItemSort == ItemSortType.Gold ||
-                ItemSort == ItemSortType.Granade ||
+                ItemSort == ItemSortType.Grenade ||
                 ItemSort == ItemSortType.Scroll ||
-                ItemSort == ItemSortType.Food)
+                ItemSort == ItemSortType.Food || 
+                ItemSort == ItemSortType.Arrow)
             {
                 s += nameof(Amount);
             }

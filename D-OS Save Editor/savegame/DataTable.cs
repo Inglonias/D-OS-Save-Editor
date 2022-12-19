@@ -327,7 +327,7 @@
         /// Names used for Gold category items
         /// </summary>
         public static readonly string[] GoldNames =
-            {"small_gold", "inbetween_gold", "trader_large_gold", "trader_insane_gold"};
+            {"small_gold", "inbetween_gold", "trader_large_gold", "trader_insane_gold", "larger_gold"};
 
         /// <summary>
         /// Names used for Arrow category items. Arrow items have prefix WPN which is shared with the Weapon category. Therefore, we need these strings to identify the Arrow category.

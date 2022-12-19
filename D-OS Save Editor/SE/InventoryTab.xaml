@@ -65,7 +65,7 @@
             <CheckBox x:Name="ShowPotionCheckBox" Content="Potion" Tag="{x:Static local:ItemSortType.Potion}"/>
             <CheckBox x:Name="ShowFurnitureCheckBox" Content="Furniture" Tag="{x:Static local:ItemSortType.Furniture}"/>
             <CheckBox x:Name="ShowSkillbookCheckBox" Content="Skill book" Tag="{x:Static local:ItemSortType.Skillbook}"/>
-            <CheckBox x:Name="ShowGrenadeCheckBox" Content="Grenade" Tag="{x:Static local:ItemSortType.Granade}"/>
+            <CheckBox x:Name="ShowGrenadeCheckBox" Content="Grenade" Tag="{x:Static local:ItemSortType.Grenade}"/>
             <CheckBox x:Name="ShowFoodCheckBox" Content="Food" Tag="{x:Static local:ItemSortType.Food}"/>
             <CheckBox x:Name="ShowArrowCheckBox" Content="Arrow" Tag="{x:Static local:ItemSortType.Arrow}"/>
             <CheckBox x:Name="ShowBookCheckBox" Content="Book" Tag="{x:Static local:ItemSortType.Book}"/>
